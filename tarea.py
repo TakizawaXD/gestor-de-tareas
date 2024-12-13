@@ -7,7 +7,9 @@ import json
 import os
 
 def sanitize_string(value):
-    return value.replace("'", "''")
+    if isinstance(value, str): 
+        return value.replace("'", "''")
+    return str(value) 
 
 Base = declarative_base()
 
@@ -34,7 +36,7 @@ class TaskManagerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Gestor de Tareas")
-        self.root.geometry("600x500")
+        self.root.geometry("1280x720")
         self.root.configure(bg="#2c2f38")
 
         self.header = tk.Label(
