@@ -30,11 +30,13 @@ Una aplicación de escritorio sencilla pero eficiente para gestionar tus tareas 
     ```bash
     python app.py
     ```
-
 ## Uso
 1. **Añade tareas** ingresando un título y una descripción opcional.
 2. **Marca tareas como completadas** seleccionándolas de la lista.
 3. **Elimina tareas completadas** con un clic en el botón correspondiente.
 4. **Exporta tus tareas** a un archivo JSON para respaldarlas.
 5. **Importa tus tareas** desde un archivo JSON existente.
-
+[![Captura-de-pantalla-2024-12-17-004420.png](https://i.postimg.cc/6QPTYc0j/Captura-de-pantalla-2024-12-17-004420.png)](https://postimg.cc/94GWfGsZ)
+[![Captura-de-pantalla-2024-12-17-004605.png](https://i.postimg.cc/Bb9bGvR2/Captura-de-pantalla-2024-12-17-004605.png)](https://postimg.cc/CB7SGwhK)
+[![Captura-de-pantalla-2024-12-17-004712.png](https://i.postimg.cc/3NXRrTHV/Captura-de-pantalla-2024-12-17-004712.png)](https://postimg.cc/tngyD8JN)
+[![Captura-de-pantalla-2024-12-17-005055.png](https://i.postimg.cc/RFvpp1Zt/Captura-de-pantalla-2024-12-17-005055.png)](https://postimg.cc/WDf7hkrp)
